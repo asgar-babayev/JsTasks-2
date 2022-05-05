@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Uefa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pt-3 {
+    padding-top: 3%;
+}
+
+.pt-1 {
+    padding-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 211, 6);
+    width: 50%;
+    height: 60vh;
+    border: 1px solid rgb(0, 71, 179);
+}
+
+.ball-size {
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    position: relative;
+}
+
+button {
+    background-color: rgb(33, 11, 235);
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
